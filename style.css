@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #6A11CB;
-    --secondary-color: #2575FC;
-    --background-color: #121212;
+    --primary-color: #000000;
+    --secondary-color: #2b2d30;
+    --background-color: #757272;
     --text-color: #FFFFFF;
-    --accent-color: #FFD700;
+    --accent-color: #b1457b;
 }
 
 * {
@@ -34,7 +34,7 @@ header {
     font-size: 18px;
     font-weight: 600;
     padding: 10px 20px;
-    background: linear-gradient(45deg, #FFC107, #FF9800);
+    background: linear-gradient(45deg, #b1457b, #b1457b);
     color: var(--background-color);
     border-radius: 8px;
     transition: 0.3s;
@@ -43,7 +43,7 @@ header {
 }
 
 .menu-label:hover, .nav-links a:hover {
-    background: linear-gradient(45deg, #FFD700, #FFA500);
+    background: linear-gradient(45deg, #b1457b, #b1457b);
 }
 
 .menu-disciplinas {
